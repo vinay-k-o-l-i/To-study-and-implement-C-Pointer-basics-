@@ -1,0 +1,30 @@
+EXPERIMENT - 9
+Vinay Koli
+24070123133
+ENTC B2
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[] = {10,20,30,40,50};
+
+    int *ptr1=&arr[1];
+    int *ptr2=&arr[4];
+
+    cout<<"Address in ptr1"<<ptr1<<endl;
+    cout<<"Address in ptr2"<<ptr2<<endl;
+
+    int diff=ptr2-ptr1;
+    int sum=*ptr1+ *ptr2;
+
+    cout<<"Difference between ptr2 and ptr1: "<<diff<<endl;
+    cout<<"Addition between ptr1 and ptr2: "<<sum<<endl;
+    return 0;
+}
+/*Output:-
+Address in ptr10x7ffdd40a5194
+Address in ptr20x7ffdd40a51a0
+Difference between ptr2 and ptr1: 3
+Addition between ptr1 and ptr2: 70
+*/
