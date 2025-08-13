@@ -1,0 +1,21 @@
+EXPERIMENT - 9
+Vinay Koli
+24070123133
+ENTC B2
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    char str[]="PRATEEK SINHA!!!";
+    char* ptr=str;
+
+    while(*ptr!='\0'){
+        cout<<*ptr;
+        ptr++;
+    }
+    return 0;
+}
+/*Output:-
+PRATEEK SINHA!!!
+*/
