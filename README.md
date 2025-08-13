@@ -1,3 +1,9 @@
+Vinay Koli
+
+24070123133
+
+ENTC B2
+
 # Pointer Programs in C++
 
 This repository demonstrates the use of pointers in C++ through several basic programs:
