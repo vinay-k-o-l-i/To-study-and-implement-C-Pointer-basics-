@@ -1,0 +1,71 @@
+EXPERIMENT - 9
+Vinay Koli
+24070123133
+ENTC B2
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age = 20;
+    float height = 5.9;
+    char grade = 'A';
+    bool isStudent = true;
+
+    int *ageptr;
+    ageptr = &age;
+    cout << age << endl;
+    cout << ageptr << endl;
+    cout << *ageptr << endl;
+    cout << &age << endl;
+
+    float *heightptr;
+    heightptr = &height;
+    cout << height << endl;
+    cout << heightptr << endl;
+    cout << *heightptr << endl;
+    cout << &height << endl;
+
+     char *gradeptr;
+     gradeptr=&grade;
+     cout<<grade<<endl;  
+     cout<<gradeptr<<endl;
+     cout<<*gradeptr<<endl;
+     cout<<&grade<<endl;
+
+    bool *isstudentptr;
+    isstudentptr = &isStudent;
+    cout << isStudent << endl;
+    cout << isstudentptr << endl;
+    cout << *isstudentptr << endl;
+    cout << &isStudent << endl;
+
+    cout << "Age: " << age << endl;
+    cout << "Height: " << height << endl;
+    cout << "Grade: " << grade << endl;
+    cout << "Is Student: " << isStudent << endl;
+
+    return 0;
+}
+/*Output:-
+20
+0x7ffe76c30e5c
+20
+0x7ffe76c30e5c
+5.9
+0x7ffe76c30e58
+5.9
+0x7ffe76c30e58
+A
+A�̼@
+A
+A�̼@
+1
+0x7ffe76c30e56
+1
+0x7ffe76c30e56
+Age: 20
+Height: 5.9
+Grade: A
+Is Student: 1
+*/
